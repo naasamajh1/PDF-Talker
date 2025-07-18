@@ -9,9 +9,7 @@ PDF-Talker is an AI-powered web app that allows users to **upload a PDF file and
 
 - 📤 Upload any PDF file
 - 🧠 Extract and understand document content using AI
-- 🎙️ Voice-to-text input (speech commands)
 - 💬 Text-based chat interface
-- 🗣️ Text-to-speech response (audio output)
 - 🔍 Ask questions and get answers from the document
 - ⚡ Fast and lightweight interface
 
@@ -22,8 +20,6 @@ PDF-Talker is an AI-powered web app that allows users to **upload a PDF file and
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Flask (Python)
 - **AI/NLP**: LangChain, OpenAI (or Gemini), PyPDF2
-- **Speech Recognition**: Web Speech API / `speech_recognition`
-- **Text-to-Speech**: pyttsx3 / gTTS / Web Speech API
 
 ---
 
@@ -78,15 +74,15 @@ Visit `http://127.0.0.1:5000` in your browser.
 ## 🎯 Usage
 
 1. Upload a PDF file.
-2. Speak or type your question.
+2. Type your question.
 3. The app will read the PDF, find the relevant answer, and reply (text or audio).
 4. Useful for reading long documents, study material, legal papers, etc.
 
 ---
 
-## 📸 Screenshots
+## Demo
 
-> Add screenshots here once UI is complete.
+https://pdf-talks-ai.streamlit.app/
 
 ---
 
